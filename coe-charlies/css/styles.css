@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+p{
+    color:black;
+}
+
+h1{
+    color: white;
+    font-weight: 300;
+    margin-left: 2rem;
+}
+
+h2{
+    color: black;
+    font-weight: 300;
+    margin-bottom: .5rem;
+}
+
+button{
+    margin: 1rem 2rem 0 2rem;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+h4{
+    font-weight: 200;
+    padding: 1.5rem 2rem;
+}
+
+div{
+    margin: 2rem;
+}
+
+.coffee{
+    background-color: #fff;
+    max-width: 300px;
+    border-radius: 15px;
+    padding: 1rem;
+    margin-left: 5rem;
+}
+
+.morebeverages{
+    background-color: #fff;
+    max-width: 300px;
+    border-radius: 15px;
+    padding: 1rem;
+    margin-left: 5rem;
+}
+
+.food{
+    background-color: #fff;
+    max-width: 300px;
+    border-radius: 15px;
+    padding: 1rem;
+    margin-left: 5rem;
+}
+
+.gelato{
+    background-color: #fff;
+    max-width: 300px;
+    border-radius: 15px;
+    padding: 1rem;
+    margin-left: 5rem;
+}
+
+.fa-instagram{
+    margin-right: 1rem;
+}
+
+.fa-facebook{
+    margin-right: 1rem;
+    padding-bottom: 3rem;
+}
