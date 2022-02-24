@@ -77,3 +77,10 @@ div{
     margin-right: 1rem;
     padding-bottom: 3rem;
 }
+
+@media screen and (min-width: 800px) {
+    .test-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
