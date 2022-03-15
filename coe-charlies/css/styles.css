@@ -6,7 +6,7 @@ body{
 }
 
 p{
-    color:black;
+    color:rgb(255, 255, 255);
 }
 
 h1{
@@ -16,9 +16,10 @@ h1{
 }
 
 h2{
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: 300;
-    margin-bottom: .5rem;
+    padding: 2rem; 
+    text-align: center;
 }
 
 button{
@@ -33,42 +34,6 @@ h4{
     padding: 1.5rem 2rem;
 }
 
-div{
-    margin: 2rem;
-}
-
-.coffee{
-    background-color: #fff;
-    max-width: 300px;
-    border-radius: 15px;
-    padding: 1rem;
-    margin-left: 5rem;
-}
-
-.morebeverages{
-    background-color: #fff;
-    max-width: 300px;
-    border-radius: 15px;
-    padding: 1rem;
-    margin-left: 5rem;
-}
-
-.food{
-    background-color: #fff;
-    max-width: 300px;
-    border-radius: 15px;
-    padding: 1rem;
-    margin-left: 5rem;
-}
-
-.gelato{
-    background-color: #fff;
-    max-width: 300px;
-    border-radius: 15px;
-    padding: 1rem;
-    margin-left: 5rem;
-}
-
 .fa-instagram{
     margin-right: 1rem;
 }
@@ -78,9 +43,26 @@ div{
     padding-bottom: 3rem;
 }
 
-@media screen and (min-width: 800px) {
-    .test-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
+  table {
+    width: 100%;
+  }
+  
+  td {
+    padding: 1rem;
+    position: relative;
+  }
+  
+  td span {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .menu-item::after {
+    border-bottom: 2px dotted white;
+    content: ' ';
+    left: 1rem;
+    position: absolute;
+    top: 1.75rem;
+    width: calc(100% - 1rem);
+    z-index: 0;
+  }
