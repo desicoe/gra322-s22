@@ -10,15 +10,32 @@ p{
 }
 
 h1{
-    color: white;
     font-weight: 300;
     margin-left: 2rem;
+    padding-top: 1.5rem;
 }
 
 h2{
+    font-weight: 300;
+    margin-left: 2rem;
+    padding-top: 1rem;
+}
+
+h3{
     color: rgb(255, 255, 255);
+    font-style: italic;
     font-weight: 300;
     padding: 2rem; 
+    text-align: center;
+}
+
+h4{
+    font-weight: 200;
+    padding: 1.5rem 2rem;
+}
+
+h6{
+    font-weight: 200;
     text-align: center;
 }
 
@@ -27,11 +44,6 @@ button{
     background-color: #fff;
     border-radius: 5px;
     padding: 1rem;
-}
-
-h4{
-    font-weight: 200;
-    padding: 1.5rem 2rem;
 }
 
 .fa-instagram{
@@ -44,15 +56,21 @@ h4{
 }
 
   table {
+    padding-left: 2rem;
     width: 100%;
   }
   
+  th{
+      text-align: left;
+  }
+
   td {
-    padding: 1rem;
+    padding: 1rem 0;
     position: relative;
   }
   
   td span {
+    background-color: black;
     position: relative;
     z-index: 1;
   }
@@ -62,7 +80,11 @@ h4{
     content: ' ';
     left: 1rem;
     position: absolute;
-    top: 1.75rem;
+    top: 2rem;
     width: calc(100% - 1rem);
     z-index: 0;
+  }
+
+  .table-4{
+      padding-bottom: 2rem;
   }
