@@ -1,3 +1,22 @@
-.current-page {
+body{
+    color:rgb(5, 10, 29);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+head{
+    color:rgb(5, 10, 29);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+}
+
+
+.current-page{
     font-weight: bold;
 }
