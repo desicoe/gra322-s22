@@ -52,3 +52,11 @@ a{
     text-decoration: none;
     color:rgb(5, 10, 29);
 }
+
+iframe{
+    padding-top: 2rem;
+}
+
+h1{
+    padding: 2rem;
+}
