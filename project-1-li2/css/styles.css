@@ -1,0 +1,76 @@
+.webpage {
+    display: flex;
+    background: #fff;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .canvas {
+    display: flex;
+    background: #fff;
+    border: 0.25px solid #999;
+    width: 71.428571vw;
+    height: 71.428571vh;
+    margin: auto;
+  }
+  
+  .blacklines1 {
+    display: flex;
+    background: #fff;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    margin: auto;
+  }
+  
+  .line1 {
+    display: flex;
+    background: black;
+    width: .5vw;
+    height: 42.857143vh;
+    margin: auto;
+  }
+  
+  .line1left {
+    display: flex;
+    background: black;
+    width: .5vw;
+    height: 42.857143vh;
+    margin: auto;
+    margin-left: 0;
+  }
+  
+  .line1right {
+    display: flex;
+    background: black;
+    width: .5vw;
+    height: 42.857143vh;
+    margin: auto;
+    margin-right: 0;
+  }
+  
+  .whitelines1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    margin: auto;
+    margin-top: 29.923076923vh;
+    margin-left: 30vw;
+    position: absolute;
+  }
+  
+  .wline1top {
+    background: #ffffff;
+    width: 4vw;
+    height: 4vh;
+    margin: auto;
+    margin-left: 2vh;
+  }
+  
+  .wline1bottom {
+    background: #ffffff;
+    width: 4vw;
+    height: 4vh;
+    margin: auto;
+    margin-left: 2vh;
+  }
