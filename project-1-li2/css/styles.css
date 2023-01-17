@@ -3,6 +3,7 @@
     background: #fff;
     width: 100vw;
     height: 100vh;
+    justify-content: center;
   }
   
   .canvas {
@@ -25,7 +26,7 @@
   .line1 {
     display: flex;
     background: black;
-    width: .5vw;
+    width: 2vw;
     height: 42.857143vh;
     margin: auto;
   }
@@ -33,7 +34,7 @@
   .line1left {
     display: flex;
     background: black;
-    width: .5vw;
+    width: 2vw;
     height: 42.857143vh;
     margin: auto;
     margin-left: 0;
@@ -42,35 +43,59 @@
   .line1right {
     display: flex;
     background: black;
-    width: .5vw;
+    width: 2vw;
     height: 42.857143vh;
     margin: auto;
     margin-right: 0;
   }
-  
-  .whitelines1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+
+  .subtraction-square {
+    display: flex;
     width: 14.285714vw;
     height: 14.285714vh;
     margin: auto;
-    margin-top: 29.923076923vh;
-    margin-left: 30vw;
     position: absolute;
-  }
-  
-  .wline1top {
-    background: #ffffff;
-    width: 4vw;
-    height: 4vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.top-lines {
+  position: absolute;
+  top: 70%;
+  left: -10%;
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+}
+
+.bottom-lines {
+  position: absolute;
+  bottom: 70%;
+  left: -10%;
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+}
+
+.white-one {
+    display: flex;
+    transform: rotate(20deg);
+    background-color: rgb(255, 255, 255);
+    width: 2vw;
+    height: 17vh;
     margin: auto;
-    margin-left: 2vh;
-  }
-  
-  .wline1bottom {
-    background: #ffffff;
-    width: 4vw;
-    height: 4vh;
-    margin: auto;
-    margin-left: 2vh;
-  }
+    margin-top: -1vh;
+    position: relative;
+}
+
+.white-one-2 {
+  display: flex;
+  transform: rotate(340deg);
+  background: rgb(255, 255, 255);
+  width: 2vw;
+  height: 17vh;
+  margin: auto;
+  margin-top: -1vh;
+}
