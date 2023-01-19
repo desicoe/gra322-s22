@@ -9,7 +9,7 @@
   .canvas {
     display: flex;
     background: #fff;
-    border: 0.25px solid #999;
+    border: 0.25px solid rgb(206, 206, 206);
     width: 71.428571vw;
     height: 71.428571vh;
     margin: auto;
